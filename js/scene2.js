@@ -91,8 +91,11 @@ function scene2() {
     sword.style.top = '64%'
     sword.style.left = '52%'
   })
-  
-  // Stage direction 2
 
+  // Stage direction 2
+  frame(function() {
+    joff.style.transform = 'rotateZ(30deg)';
+    joff.style.left = '70%';
+  })
 
 }
