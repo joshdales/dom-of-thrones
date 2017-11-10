@@ -67,27 +67,31 @@ function scene2() {
   // Action!
 
   // Stage direction 1
-
   frame(function() {
     sword.style.top = '78%'
     sword.style.left = '26%'
   })
 
   frame(function() {
-    sword.style.top = '78%'
-    sword.style.left = '26%'
+    sword.style.top = '75%'
+    sword.style.left = '32%'
   })
 
-  // new middle stages
   frame(function() {
     sword.style.top = '72%'
     sword.style.left = '39%'
   })
 
   frame(function() {
+    sword.style.top = '67%'
+    sword.style.left = '46%'
+  })
+
+  frame(function() {
     sword.style.top = '64%'
     sword.style.left = '52%'
   })
+  
   // Stage direction 2
 
 
