@@ -108,4 +108,22 @@ function scene2() {
     joff.style.left = '110%';
     joff.style.top = '30%';
   })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(120deg)';
+    joff.style.left = '130%';
+    joff.style.top = '40%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(150deg)';
+    joff.style.left = '150%';
+    joff.style.top = '50%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '170%';
+    joff.style.top = '100%';
+  })
 }
