@@ -17,6 +17,18 @@ function scene2() {
   nedContainer.appendChild(leather);
   stage.append(nedContainer);
 
+  var joffContainer = document.createElement('div');
+  var joffrey = document.querySelector('#joffrey');
+  var king = document.querySelector('#king');
+  joffContainer.style = "position: absolute; bottom: 0px;";
+  joffrey.style = 'position: absolute; top: 0px; right: 0px; width: 58%;'
+  king.style = 'position: absolute; bottom: 0px;'
+  joffContainer.appendChild(joffrey);
+  joffContainer.appendChild(king);
+  stage.append(joffContainer);
+
+
+
   // Character 1
 
   // Character 2
