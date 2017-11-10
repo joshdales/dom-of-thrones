@@ -98,4 +98,8 @@ function scene2() {
     joff.style.left = '70%';
   })
 
+  frame(function() {
+    joff.style.transform = 'rotateZ(60deg)';
+    joff.style.left = '90%';
+  })
 }
