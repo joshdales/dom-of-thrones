@@ -1,5 +1,5 @@
 function scene2() {
-
+  console.log('Executing scene 2!');
   // Setup Stage
 
   // Setup Cast
