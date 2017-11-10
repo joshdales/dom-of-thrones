@@ -126,4 +126,58 @@ function scene2() {
     joff.style.left = '170%';
     joff.style.top = '100%';
   })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '200%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '250%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '300%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '350%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '400%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '450%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '500%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '550%';
+    joff.style.top = '100%';
+  })
+
+  frame(function() {
+    joff.style.transform = 'rotateZ(180deg)';
+    joff.style.left = '600%';
+    joff.style.top = '100%';
+  })
 }
