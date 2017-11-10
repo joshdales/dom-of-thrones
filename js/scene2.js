@@ -10,9 +10,17 @@ function scene2() {
   var nedContainer = document.createElement('div')
   var ned = document.querySelector('#ned');
   var leather = document.querySelector('#leather-armour');
-  nedContainer.style = 'position: absolute; width: 10%; height: 37%; top: 55%; bottom: 50%; border: none; background: none; left: 25%;';
-  ned.style = "border: none; width: 70%; position: absolute; top: 0px;";
-  leather.style = "border: none; position: absolute; bottom: 0px;";
+  nedContainer.style.position = 'absolute';
+  nedContainer.style.width = '10%;';
+  nedContainer.style.height = '37%';
+  nedContainer.style.top = '55%';
+  nedContainer.style.bottom = '50%';
+  nedContainer.style.left = '25%';
+  ned.style.position = 'absolute';
+  ned.style.top = '0';
+  ned.style.width = '70%';
+  leather.style.position = 'absolute';
+  leather.style.bottom = '0';
   nedContainer.appendChild(ned);
   nedContainer.appendChild(leather);
   stage.append(nedContainer);
@@ -20,9 +28,14 @@ function scene2() {
   var joffContainer = document.createElement('div');
   var joffrey = document.querySelector('#joffrey');
   var king = document.querySelector('#king');
-  joffContainer.style = "position: absolute; bottom: 0px;";
-  joffrey.style = 'position: absolute; top: 0px; right: 0px; width: 58%;'
-  king.style = 'position: absolute; bottom: 0px;'
+  joffContainer.style.position = "absolute";
+  offContainer.style.bottom = '0';
+  joffrey.style.position = 'absolute';
+  joffrey.style.top = '0';
+  joffrey.style.right = '0';
+  joffrey.style.width = '58%';
+  king.style.position = 'absolute'
+  king.style.bottom: '0';
   joffContainer.appendChild(joffrey);
   joffContainer.appendChild(king);
   stage.append(joffContainer);
