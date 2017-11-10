@@ -5,7 +5,17 @@ function scene2() {
   var stageImg = stage.querySelector('#stage-img')
   var castleImgSrc = castle.getAttribute('src');
   stageImg.setAttribute('src', castleImgSrc);
+
   // Setup Cast
+  var nedContainer = document.createElement('div')
+  var ned = document.querySelector('#ned');
+  var leather = document.querySelector('#leather-armour');
+  nedContainer.style = 'position: absolute; width: 10%; height: 37%; top: 55%; bottom: 50%; border: none; background: none; left: 25%;';
+  ned.style = "border: none; width: 70%; position: absolute; top: 0px;";
+  leather.style = "border: none; position: absolute; bottom: 0px;";
+  nedContainer.appendChild(ned);
+  nedContainer.appendChild(leather);
+  stage.append(nedContainer);
 
   // Character 1
 
